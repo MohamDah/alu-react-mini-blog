@@ -1,5 +1,7 @@
+import withLogger from "../hocs/withLogger";
 import "../styles/Header.css";
 
+// eslint-disable-next-line react-refresh/only-export-components
 const Header = () => {
   return (
     <header className="header">
@@ -11,4 +13,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default withLogger(Header);
