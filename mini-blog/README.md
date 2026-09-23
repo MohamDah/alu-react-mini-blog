@@ -25,9 +25,7 @@
 - `withLogger` HOC logs mount/unmount to the console; applied to `Header`.
 
 ### Challenges & Reflection
-<write 2-4 sentences about something you actually struggled with — e.g. TypeScript generics
-in the HOC, or getting the "New!" badge date logic right>
-I haven't extensively used Higher Order Components before, so it was a little tough figuring out a meaningful way to use it. I thought a component lifecycle logger would be a good idea so decided to do that. 
+I haven't extensively used Higher Order Components before, so it was a little tough figuring out a how to implement it well. I tried to research a good way to do it and I went with this and went with the current method.
 
 I also had an issue with the React IDE rules because I wasn't technically exporting a component (in this component `Header.tsx`). I had to add a comment to turn off that rule for that one file.
 
